@@ -5,9 +5,12 @@ const Cart = ({ cartItems, onRemove, onCheckout }) => {
 
   if (cartItems.length === 0)
     return (
-      <div className="py-20 text-gray-400 border-2 border-dashed rounded-xl">
+      <div className="py-20 text-gray-400 border-2 border-dashed rounded-xl justify-center ">
+       
         Your cart is empty! Start shopping.
+        
       </div>
+      
     );
 
   return (
@@ -19,9 +22,13 @@ const Cart = ({ cartItems, onRemove, onCheckout }) => {
             className="flex justify-between items-center p-4 bg-gray-50 rounded-xl"
           >
             <div className="flex items-center gap-4 text-left">
-              <span className="text-2xl">{item.icon}</span>
+           <img
+  src={item.iconUrl}
+  alt={item.title}
+  className="w-10 h-10 object-contain"
+/>
               <div>
-                <h4 className="font-bold text-sm">{item.name}</h4>
+                <h4 className="font-bold text-sm">{item.title}</h4>
                 <p className="text-xs text-gray-500">${item.price}</p>
               </div>
             </div>
