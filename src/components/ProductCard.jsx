@@ -1,6 +1,7 @@
 import React from 'react';
-
+import Products from './Products';
 const ProductCard = ({ product, onAdd }) => (
+  
   <div className="bg-white p-8 rounded-2xl border text-left relative shadow-sm hover:shadow-md transition">
     <div className="absolute top-4 right-4 bg-orange-100 text-orange-600 text-[10px] px-2 py-1 rounded-full font-bold">{product.tag}</div>
     <div className="text-4xl mb-4 p-2 bg-gray-50 w-fit rounded-lg">{product.icon}</div>
