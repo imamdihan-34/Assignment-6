@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "https://img.icons8.com/fluency/96/resume.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build your personal portfolio website easily with pre-designed layouts.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Responsive design",
+      "Custom domains",
+      "SEO optimized"
+    ],
+    "icon": "https://img.icons8.com/fluency/96/domain.png"
+  },
+  {
+    "id": 3,
+    "name": "Interview Prep AI",
+    "description": "Practice interviews with AI and get instant feedback.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Mock interviews",
+      "AI feedback",
+      "Common questions database"
+    ],
+    "icon": "https://img.icons8.com/fluency/96/chatbot.png"
+  },
+  {
+    "id": 4,
+    "name": "Job Tracker",
+    "description": "Track all your job applications in one place.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Application tracking",
+      "Status updates",
+      "Reminders"
+    ],
+    "icon": "https://img.icons8.com/fluency/96/task.png"
+  },
+  {
+    "id": 5,
+    "name": "Cover Letter Generator",
+    "description": "Generate personalized cover letters instantly.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Custom templates",
+      "AI suggestions",
+      "Download options"
+    ],
+    "icon": "https://i.ibb.co.com/hFpmLWM1/id-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Skill Assessment Tests",
+    "description": "Test your skills and get certified with detailed reports.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Multiple categories",
+      "Performance analytics",
+      "Certificates"
+    ],
+    "icon": "https://img.icons8.com/fluency/96/prize.png"
+  },
+  {
+    "id": 7,
+    "name": "Freelance Starter Pack",
+    "description": "Everything you need to start freelancing successfully.",
+    "price": 24.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Client proposal templates",
+      "Pricing guide",
+      "Contract samples"
+    ],
+    "icon": "https://img.icons8.com/fluency/96/briefcase.png"
+  },
+  {
+    "id": 8,
+    "name": "LinkedIn Optimizer",
+    "description": "Optimize your LinkedIn profile to attract recruiters.",
+    "price": 11.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Profile analysis",
+      "Keyword optimization",
+      "Headline generator"
+    ],
+    "icon": "https://img.icons8.com/fluency/96/linkedin.png"
+  }
+]
