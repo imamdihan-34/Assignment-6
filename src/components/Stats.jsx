@@ -15,7 +15,7 @@ const Stats = () => {
 
         <div className="hidden md:block h-16 w-[1px] bg-white/20"></div>
 
-        {/* Premium Tools */}
+        
         <div className="flex flex-col items-center flex-1 py-6 md:py-0">
           <h2 className="text-5xl font-bold mb-2">200+</h2>
           <p className="text-gray-200 text-lg font-light  tracking-wide">

@@ -1,122 +1,104 @@
 [
   {
     "id": 1,
-    "name": "Resume Builder Pro",
-    "description": "Create professional resumes with modern templates and ATS optimization.",
-    "price": 9.99,
-    "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
+    "title": "AI Writing Pro",
+    "badge": "Best Seller",
+    "iconUrl": "https://cdn-icons-png.flaticon.com/512/2593/2593549.png",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "currency": "$",
+    "duration": "Mo",
     "features": [
-      "100+ templates",
-      "ATS optimization",
-      "Export to PDF"
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
     ],
-    "icon": "https://img.icons8.com/fluency/96/resume.png"
+    "buttonText": "Buy Now",
+    "themeColor": "#8B2CF5"
   },
   {
     "id": 2,
-    "name": "Portfolio Website Kit",
-    "description": "Build your personal portfolio website easily with pre-designed layouts.",
-    "price": 19.99,
-    "period": "one-time",
-    "tag": "best seller",
-    "tagType": "best seller",
+    "title": "UI Design Master",
+    "badge": "Popular",
+    "iconUrl": "https://cdn-icons-png.flaticon.com/512/1260/1260212.png",
+    "description": "Create stunning user interfaces and prototypes with our premium design components.",
+    "price": 49,
+    "currency": "$",
+    "duration": "Mo",
     "features": [
-      "Responsive design",
-      "Custom domains",
-      "SEO optimized"
+      "100+ UI components",
+      "Figma file access",
+      "Weekly design updates"
     ],
-    "icon": "https://img.icons8.com/fluency/96/domain.png"
+    "buttonText": "Get Started",
+    "themeColor": "#00C2FF"
   },
   {
     "id": 3,
-    "name": "Interview Prep AI",
-    "description": "Practice interviews with AI and get instant feedback.",
-    "price": 14.99,
-    "period": "monthly",
-    "tag": "new",
-    "tagType": "new",
+    "title": "Code Assistant",
+    "badge": "New",
+    "iconUrl": "https://cdn-icons-png.flaticon.com/512/6062/6062646.png",
+    "description": "Debug and optimize your frontend code faster using our smart developer tools.",
+    "price": 19,
+    "currency": "$",
+    "duration": "Mo",
     "features": [
-      "Mock interviews",
-      "AI feedback",
-      "Common questions database"
+      "Real-time bug detection",
+      "Syntax highlighting",
+      "Git integration"
     ],
-    "icon": "https://img.icons8.com/fluency/96/chatbot.png"
+    "buttonText": "Subscribe",
+    "themeColor": "#FF4D4D"
   },
   {
     "id": 4,
-    "name": "Job Tracker",
-    "description": "Track all your job applications in one place.",
-    "price": 4.99,
-    "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
+    "title": "SEO Optimizer",
+    "badge": "Top Rated",
+    "iconUrl": "https://cdn-icons-png.flaticon.com/512/2621/2621057.png",
+    "description": "Boost your website ranking with data-driven keywords and performance analysis.",
+    "price": 35,
+    "currency": "$",
+    "duration": "Mo",
     "features": [
-      "Application tracking",
-      "Status updates",
-      "Reminders"
+      "Keyword research tool",
+      "Backlink monitoring",
+      "Monthly reports"
     ],
-    "icon": "https://img.icons8.com/fluency/96/task.png"
+    "buttonText": "Try Free",
+    "themeColor": "#27AE60"
   },
   {
     "id": 5,
-    "name": "Cover Letter Generator",
-    "description": "Generate personalized cover letters instantly.",
-    "price": 7.99,
-    "period": "monthly",
-    "tag": "best seller",
-    "tagType": "best seller",
+    "title": "Video Editor Cloud",
+    "badge": "Discount",
+    "iconUrl": "https://cdn-icons-png.flaticon.com/512/4406/4406151.png",
+    "description": "Edit and render high-quality videos directly in your browser with cloud power.",
+    "price": 45,
+    "currency": "$",
+    "duration": "Mo",
     "features": [
-      "Custom templates",
-      "AI suggestions",
-      "Download options"
+      "4K rendering support",
+      "Stock music library",
+      "No watermark"
     ],
-    "icon": "https://i.ibb.co.com/hFpmLWM1/id-5.png"
+    "buttonText": "Upgrade",
+    "themeColor": "#F2994A"
   },
   {
     "id": 6,
-    "name": "Skill Assessment Tests",
-    "description": "Test your skills and get certified with detailed reports.",
-    "price": 29.99,
-    "period": "yearly",
-    "tag": "new",
-    "tagType": "new",
+    "title": "Security Shield",
+    "badge": "Enterprise",
+    "iconUrl": "https://cdn-icons-png.flaticon.com/512/1067/1067555.png",
+    "description": "Protect your digital assets with advanced encryption and real-time threat detection.",
+    "price": 99,
+    "currency": "$",
+    "duration": "Yr",
     "features": [
-      "Multiple categories",
-      "Performance analytics",
-      "Certificates"
+      "End-to-end encryption",
+      "Multi-device sync",
+      "24/7 Support"
     ],
-    "icon": "https://img.icons8.com/fluency/96/prize.png"
-  },
-  {
-    "id": 7,
-    "name": "Freelance Starter Pack",
-    "description": "Everything you need to start freelancing successfully.",
-    "price": 24.99,
-    "period": "one-time",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": [
-      "Client proposal templates",
-      "Pricing guide",
-      "Contract samples"
-    ],
-    "icon": "https://img.icons8.com/fluency/96/briefcase.png"
-  },
-  {
-    "id": 8,
-    "name": "LinkedIn Optimizer",
-    "description": "Optimize your LinkedIn profile to attract recruiters.",
-    "price": 11.99,
-    "period": "monthly",
-    "tag": "best seller",
-    "tagType": "best seller",
-    "features": [
-      "Profile analysis",
-      "Keyword optimization",
-      "Headline generator"
-    ],
-    "icon": "https://img.icons8.com/fluency/96/linkedin.png"
+    "buttonText": "Contact Us",
+    "themeColor": "#333333"
   }
 ]
