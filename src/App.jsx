@@ -16,9 +16,8 @@ function App() {
   // 1. States setup
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
-  const [activeTab, setActiveTab] = useState("products"); 
+  const [activeTab, setActiveTab] = useState("products");
 
- 
   useEffect(() => {
     fetch("/data.json")
       .then((res) => res.json())
@@ -51,29 +50,31 @@ function App() {
     <>
       <ToastContainer position="top-right" autoClose={1500} />
 
-     
       <Navbar cartCount={cart.length} />
 
       <Banner />
       <Stats />
 
-    
       <main className="py-20 px-4 md:px-10 bg-gray-50 text-center">
         <h2 className="text-4xl font-bold mb-8">Premium Digital Tools</h2>
-        <p className="text-gray-500 my-5">Choose from our curated collection of premium digital products designed <br />to boost your productivity and creativity.</p>
+        <p className="text-gray-500 my-5">
+          Choose from our curated collection of premium digital products
+          designed <br />
+          to boost your productivity and creativity.
+        </p>
 
-       
         <div className="inline-flex p-1 bg-white border rounded-full shadow-sm mb-12">
           <button
             onClick={() => setActiveTab("products")}
-            className={`px-8 py-2 rounded-full transition ${activeTab === "products" ? "bg-violet-600 text-white" : "text-gray-500"}`}
+            className={`px-8 py-2 rounded-full transition ${activeTab === "products" ? 
+              "bg-violet-600 text-white" : "text-gray-500"}`}
           >
             Products
           </button>
           <button
             onClick={() => setActiveTab("cart")}
-            className={`px-8 py-2 rounded-full transition ${activeTab === "cart" ? "bg-violet-600 text-white" : "text-gray-500"}`}
-          >
+            className={`px-8 py-2 rounded-full transition ${activeTab === "cart" ?
+               "bg-violet-600 text-white" : "text-gray-500"}`}>
             Cart ({cart.length})
           </button>
         </div>
