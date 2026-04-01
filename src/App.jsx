@@ -16,9 +16,9 @@ function App() {
   // 1. States setup
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
-  const [activeTab, setActiveTab] = useState("products"); // Products default thakbe
+  const [activeTab, setActiveTab] = useState("products"); 
 
-  // 2. Fetch data from public/data.json
+ 
   useEffect(() => {
     fetch("/data.json")
       .then((res) => res.json())
@@ -33,7 +33,7 @@ function App() {
       toast.info("Ager thekei cart-e ache!");
     } else {
       setCart([...cart, product]);
-      toast.success(`${product.name} add hoyeche!`);
+      toast.success(`${product.title} Added to cart`);
     }
   };
 
@@ -78,7 +78,6 @@ function App() {
           </button>
         </div>
 
-        {/* Dynamic Display: Product or Cart */}
         {activeTab === "products" ? (
           <Products products={products} onAdd={addToCart} />
         ) : (
@@ -90,7 +89,6 @@ function App() {
         )}
       </main>
 
-      {/* Baki Sections */}
       <Steps />
       <Pricing />
       <Footer />
