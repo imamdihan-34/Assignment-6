@@ -39,7 +39,7 @@ function App() {
 
   const removeFromCart = (id) => {
     setCart(cart.filter((item) => item.id !== id));
-    toast.error("Cart theke remove kora hoyeche");
+    toast.error("Removed Item from Cart");
   };
 
   const clearCart = () => {
@@ -51,17 +51,18 @@ function App() {
     <>
       <ToastContainer position="top-right" autoClose={1500} />
 
-      {/* Navbar-e cart count pathiye daw */}
+     
       <Navbar cartCount={cart.length} />
 
       <Banner />
       <Stats />
 
-      {/* Main Section with Toggling */}
+    
       <main className="py-20 px-4 md:px-10 bg-gray-50 text-center">
         <h2 className="text-4xl font-bold mb-8">Premium Digital Tools</h2>
+        <p className="text-gray-500 my-5">Choose from our curated collection of premium digital products designed <br />to boost your productivity and creativity.</p>
 
-        {/* Toggle Buttons */}
+       
         <div className="inline-flex p-1 bg-white border rounded-full shadow-sm mb-12">
           <button
             onClick={() => setActiveTab("products")}
