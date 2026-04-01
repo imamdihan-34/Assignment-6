@@ -1,12 +1,19 @@
 import React from "react";
 import Products from "./Products";
+import packageImg from "../assets/products/package.png";
+
 const ProductCard = ({ product, onAdd }) => (
+
   <div className="bg-white p-8 rounded-2xl border text-left relative shadow-sm hover:shadow-md transition">
     <div className="absolute top-4 right-4 bg-orange-100 text-orange-600 text-[10px] px-2 py-1 rounded-full font-bold">
       {product.badge}
     </div>
     <div className="text-4xl mb-4 p-2 bg-gray-50 w-fit rounded-lg">
-      {product.icon}
+      <img
+  src={product.iconUrl === "package.png" ? packageImg : product.iconUrl}
+  alt={product.title}
+  className="w-12 h-12"
+/>
     </div>
     <h3 className="text-lg font-bold">{product.title}</h3>
     <p className="text-gray-400 text-sm mb-4">{product.description}</p>
