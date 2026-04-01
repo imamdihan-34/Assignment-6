@@ -57,7 +57,7 @@ const Steps = () => {
               {step.title}
             </h3>
 
-            <p className="text-[15px] text-[#6B7280] leading-[1.6] max-w-[280px] mx-auto">
+            <p className="text-[15px] text-[#6B7280] leading-[1.6] max-w:[280px] mx-auto">
               {step.desc}
             </p>
           </div>

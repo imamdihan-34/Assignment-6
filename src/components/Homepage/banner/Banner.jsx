@@ -1,5 +1,5 @@
 import React from "react";
-
+import bannerImg from "../../../assets/products/banner.png";
 const Banner = () => (
   <div className="grid md:grid-cols-2 p-10 bg-gray-100">
     <div>
@@ -48,7 +48,7 @@ const Banner = () => (
         </button>
       </div>
     </div>
-    <img src="/src/assets/banner.png" />
+<img src={bannerImg} alt="banner" />
   </div>
 );
 export default Banner;
